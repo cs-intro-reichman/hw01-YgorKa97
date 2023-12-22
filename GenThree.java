@@ -17,6 +17,6 @@ public class GenThree {
         System.out.println("Third random number is: " + rand3);
         // find the minimal number
         int min = Math.min(Math.min(rand1,rand2),rand3);
-        System.out.println("Minimal number is: " + min);	
+        System.out.println("The minimal generated number was: " + min);	
 	}
 }
