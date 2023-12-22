@@ -4,6 +4,13 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		// User input of coist amount
+		int coins =  Integer.parseInt(args[0]);
+		//function that counts how many quarters in coins
+		int quarters = coins / 25;
+		//founctoun counst cents 
+		int cents = coins % 25;
+		//print out
+		System.out.println("Use " + quarters + " quarters and " + cents + " cents");
 	}
 }
