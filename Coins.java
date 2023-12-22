@@ -6,11 +6,11 @@ public class Coins {
 	public static void main(String[] args) {
 		// User input of coins amount
 		int coins =  Integer.parseInt(args[0]);
-		//function that counts how many quarters in coins
+		//Function that counts how many quarters in coins
 		int quarters = coins / 25;
-		//function that count cents 
+		//Function that count cents 
 		int cents = coins % 25;
-		//print out
+		//Print out
 		System.out.println("Use " + quarters + " quarters and " + cents + " cents");
 	}
 }
