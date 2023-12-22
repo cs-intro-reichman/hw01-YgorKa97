@@ -13,10 +13,10 @@ public class Triangle {
        		boolean triangle = true;
         if ((a + b) < c || (a + c) < b || (b + c) < a){
 		//will print false
-            System.out.println(!triangle);
+            System.out.println(a + ", " + b + ", " + c + ": " + !triangle);
         }else{
 		//will print true
-            System.out.println(triangle);
+            System.out.println(a + ", " + b + ", " + c + ": " + triangle);
         }
 
     }
